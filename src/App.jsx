@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="h-screen flex">
+    <div className="h-screen flex overflow-hidden">
       {/* Sidebar */}
       <div className="w-64 bg-gray-800 text-white p-4">
         <h1 className="text-xl font-bold mb-4">Chat App</h1>
